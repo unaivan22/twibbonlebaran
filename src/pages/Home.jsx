@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       {/* {isMobile ? <Forbidden /> : <Welcome />} */}
       {/* <Welcome /> */}
-        <div className="container">
+        <div className="container md:px-24 pb-12">
           <p className="font-semibold text-3xl mb-1 mt-12">
             Twibbon Template
           </p>

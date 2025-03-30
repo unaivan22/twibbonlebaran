@@ -217,6 +217,11 @@ function TwibbonThree() {
                   <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Twibbon Layer</span>
                 </label>
                 <p className='text-xs opacity-70 font-light'>Untuk mengatur posisi foto anda silahkan switch off dulu</p>
+                <div className='flex flex-col gap-1'>
+                  <p className='text-sm'>Zoom ({sliderValueScale})</p>
+                  <input type="range" min={1} max={30} value={sliderValueScale} className="range w-full cursor-grabbing accent-black" step={1} onChange={handleSliderChangeScale} />
+                  <p className='text-xs opacity-70'>Jika gambar tidak bisa digeser maka zoom dulu</p>
+                </div>
                 <ReactQuill
                   theme="snow"
                   value={inputEventDescTitle}
@@ -245,11 +250,6 @@ function TwibbonThree() {
                   modules={{ toolbar: fullToolbarOptions }}
                   className='quill-editor rounded-xl bg-white h-[100px] overflow-y-scroll'
                 />
-                <div className='flex flex-col gap-1'>
-                  <p className='text-sm'>Zoom ({sliderValueScale})</p>
-                  <input type="range" min={1} max={30} value={sliderValueScale} className="range w-full cursor-grabbing accent-black" step={1} onChange={handleSliderChangeScale} />
-                  <p className='text-xs opacity-70'>Jika gambar tidak bisa digeser maka zoom dulu</p>
-                </div>
               </div>
               <div className='flex gap-2 w-full pt-12'>
                 <Button variant='outline' className='w-full' onClick={handleReset} > <RotateCcw className='w-4 h-4 mr-2' /> Reset</Button>
