@@ -226,7 +226,7 @@ function TwibbonFive() {
                 <div className='flex flex-col gap-1'>
                   <p className='text-sm'>Zoom ({sliderValueScale})</p>
                   <input type="range" min={1} max={30} value={sliderValueScale} className="range w-full cursor-grabbing accent-black" step={1} onChange={handleSliderChangeScale} />
-                  <p className='text-xs opacity-70'>Jika gambar tidak bisa digeser maka zoom dulu</p>
+                  <p className='text-xs opacity-70'>Zoom untuk expand foto</p>
                 </div>
                 <ReactQuill
                   theme="snow"
