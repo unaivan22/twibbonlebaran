@@ -5,31 +5,31 @@
             "link" : "twibbon/style-one/",
             "projectname" : "Style One",
             "type" : "Fact",
-            "src" : "/twibbon/cover1.webp"
+            "src" : "https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/cover1.webp"
         },{
             "id" : "1",
             "link" : "twibbon/style-two/",
             "projectname" : "Style Two",
             "type" : "Fact",
-            "src" : "/twibbon/cover2.webp"
+            "src" : "https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/cover2.webp"
         },{
             "id" : "2",
             "link" : "twibbon/style-three/",
             "projectname" : "Style Three",
             "type" : "Fact",
-            "src" : "/twibbon/cover3.webp"
+            "src" : "https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/cover3.webp"
         },{
             "id" : "3",
             "link" : "twibbon/style-four/",
             "projectname" : "Style Four",
             "type" : "Fact",
-            "src" : "/twibbon/cover4.webp"
+            "src" : "https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/cover4.webp"
         },{
             "id" : "4",
             "link" : "twibbon/style-five/",
             "projectname" : "Style Five",
             "type" : "Fact",
-            "src" : "/twibbon/cover5.webp"
+            "src" : "https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/cover5.webp"
         }
     ]
 }

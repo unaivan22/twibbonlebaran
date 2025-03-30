@@ -179,7 +179,7 @@ function TwibbonFive() {
 
               {isCheckedTitle ? ( 
                 <div className='absolute z-50'>
-                  <img className='w-[400px] md:w-[800px] aspect-square' src='/twibbon/layer/5.webp' />
+                  <img className='w-[400px] md:w-[800px] aspect-square' src='https://raw.githubusercontent.com/unaivan22/twibbonlebaran/refs/heads/master/public/twibbon/layer/5.webp' />
                 </div>
               ) : null}
 
